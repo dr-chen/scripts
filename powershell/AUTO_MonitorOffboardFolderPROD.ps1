@@ -1,4 +1,4 @@
-﻿# Can be run as a scheduled task, monitors a network path, if .dat file is found, we move automatically disable account based on user information in .dat file. Send email for notification.
+﻿# Can be run as a scheduled task, monitors a network path, if .dat file is found, we automatically disable account based on user information in .dat file. Send email for notification.
 
 # Get the path 
 $monitorDirectory = Get-ChildItem -Path "\\someserver\peoplesoft\hrproduction\hr\outbound\powershell_ad"
